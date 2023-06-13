@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:16px;
+	color:#666666;
+}
+.titulo{
+	text-align:center;
+	border-bottom:2px solid #666666;
+	font-size: 24PX;
+}
+.menu a{
+	background-color:#333333;
+	color:#FFFFFF;
+	display:block;
+	width: 150px;
+	padding:20px;
+	text-decoration:none;
+	margin-bottom:2px;
+	border-left:10px solid #FF0000;
+}
+.menu a:hover{
+	background-color:#CCCCCC;
+	color:#000000;
+	text-align:right;
+	border-left: 30px solid #FF0000;
+	width: 130px;
+}
